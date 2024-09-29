@@ -14,7 +14,7 @@ from cpovc_main.functions import get_dict
 from cpovc_access.functions import access_request
 from django.contrib.auth.decorators import login_required
 
-mc = memcache.Client(['127.0.0.1:11211'], debug=0)
+mc = memcache.Client(['127.0.0.1'], debug=0)
 
 
 def public_dash(request):

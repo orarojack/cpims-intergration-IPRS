@@ -29,6 +29,7 @@ cpims_db_instance = env('CPIMS_DB')
 cpims_db_port = env('CPIMS_PORT')
 cpims_db_user = env('CPIMS_DBUSER')
 
+
 DEBUG = env('CPIMS_DEBUG')
 
 INSTALLED_APPS = [

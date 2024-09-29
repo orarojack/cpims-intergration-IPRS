@@ -106,7 +106,7 @@ class SetupList(models.Model):
     sms_keyword = models.BooleanField(default=False)
     is_void = models.BooleanField(default=False)
     field_name = models.CharField(max_length=200, null=True, blank=True)
-    timestamp_updated = models.DateTimeField(auto_now=True, null=True)
+    # timestamp_updated = models.DateTimeField(auto_now=True, null=True)
 
     class Meta:
         """Override some params."""
